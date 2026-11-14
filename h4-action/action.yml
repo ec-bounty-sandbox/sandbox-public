@@ -1,0 +1,7 @@
+name: h4
+description: h4 sentinel
+runs:
+  using: composite
+  steps:
+    - run: echo h4-control-PUBLIC
+      shell: bash
